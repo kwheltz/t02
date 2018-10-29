@@ -1,0 +1,192 @@
+::-webkit-scrollbar-track {
+    background-color: #3399ff;
+}
+#perfil{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1rem;
+}
+#perfil p{
+    color: #000;
+}
+
+
+#foto{
+    transform: translate(42.5%)!important;
+}
+
+#perfil ul{
+    color: #808080;
+}
+#port{
+    background-color: #000;
+    text-align: center;
+    margin: 0;
+}
+button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)!important;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    width: 260px;
+    border-radius: 0px;
+    height: 60px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+button:hover{
+    transition: all 0.7s;
+    background-color: #000000;
+    color: #fff;
+}
+
+#skills{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    margin-top: 100px;
+    min-height: 400px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    background-image: linear-gradient(rgba(26, 26, 26, 0.3),rgba(26,26,26,.45)), url(./carbon.jpg);
+    background-size: cover;
+}
+
+#skills h2{
+    padding: 30px;
+}
+
+#skills p{
+    padding-bottom: 30px;
+}
+
+#skills ul{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+#skills ul li{
+    position: center;
+    float: left;
+    padding: 5px 15px;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+    margin: 4px;
+    cursor: pointer;
+    transition: all .7s;
+    text-transform: uppercase;
+    min-width: 60px;
+    font-size: 0.8rem;    
+}
+
+#skills ul li:hover{
+    background-color: rgba(255,255,255,1);
+    color: #000;
+} 
+
+#blog{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(rgba(19, 17, 17, 0.45),rgba(19,17,17,.55)) ,url(./blog.jpg);
+    background-size: cover;
+    min-height: 850px;
+}
+
+#blog h2, h3, p{
+    color: #fff;
+}
+
+#blog h2{
+    padding: 30px;
+}
+
+#blog p{
+    margin-bottom: 30px;
+}
+
+.card-body p{
+    color: #000!important;
+}
+    
+.card-header h4{
+    color: black!important;
+}
+#port{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    background-image: url(./jobs.jpg);
+    background-size: cover;
+    padding: 30px;
+    min-height: 650px;
+}
+#port h2,h3, p{
+    color: #fff;
+}
+
+#port h2{
+    margin-bottom: 30px;
+}
+
+#infos{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    padding: 30px;
+    color: #fff;
+    background-color: #3399ff;
+    text-align: center;
+    min-height: 650px;
+}
+
+#infos h2{
+    margin-bottom: 30px;
+}
+
+#contact{
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    background-image: linear-gradient(rgba(19, 17, 17, 0.55),rgba(19,17,17,.65)) ,url(./paper.jpg);
+    background-size: cover;
+    padding: 30px;
+    color: #fff;
+    background-color: #2D2E30;
+    background-size: cover;
+}
+
+#contact img{
+    height: 30px;
+    width: 30px;
+}
+
+#contact button{
+    width: 175px;
+}
+
+#contact h2, h3, p{
+    padding: 5px;
+    text-align: center;
+}
+
+#rede{
+    border-radius: 25px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+
+#rede:hover{
+    transition: all 1s;
+    background-color: #fff;
+}
+
+#footer-info {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    text-align: center;
+}
+
+#footer-bottom {
+	padding: 15px 15px 5px;
+	background-color: #000;
+}
+
+
